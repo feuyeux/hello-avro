@@ -1,0 +1,8 @@
+[package]
+name = "hello-avro"
+version = "0.0.1"
+edition = "2021"
+
+[dependencies]
+apache-avro = "0.16.0"
+serde = { version = "1.0.192", features = ["derive"] }
